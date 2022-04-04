@@ -4,9 +4,9 @@
 
 	Bobby's manager has been pleased with our work so far and has given us another project. The purpose of our project is to analyze the number of retiring employees by title and pinpoint which employees are eligible to to participate in the mentorship program. Our retiring titles table information will show the titles of all employees born between January, 1 1952 and December, 31 1955. First, Boby and I created a query that retrieved the emp_no, first_name and last_name columns from the employees table and retrieved the title, from_date and to_date columns of the titles table in our Pewlett-Hackard query. We joined both of these table on the primary key, filtered the data by birth_date, and put the data into a new table. Next, we created a unique_titles table to find the first showing of the emp_no in our new table by using the DISTINCT ON function and we did ORDER BY COUNT to show us the total number of each title from our unique_titles table that we created earlier. The 2nd deliverable we created a query that retrieved columns from our employees and dept_emp table, filtered data on current employees born in 1965 then ordered the table by emp_no. This query created our table to show the employees eligible for the mentorship program.
 
-![alt text](C:\Users\lawre\OneDrive\Documents\GitHub\Pewlett-Hackard-Analysis\retirees_titles.png)
+![retirees_titles](https://github.com/ljohnson1212/Pewlett-Hackard-Analysis/blob/main/retirees_titles.png)
 
-![alt text](C:\Users\lawre\OneDrive\Documents\GitHub\Pewlett-Hackard-Analysis\retiring_titles.png)
+![retiring_titles](https://github.com/ljohnson1212/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png)
 
 
 #RESULTS
@@ -18,11 +18,11 @@
 
 	Our retiring_titles shows us the a majority of the employees of retirment age. The number of employees of retirement age compared to the number of employees equals 57,668/90,398, which is 64%. 
 
-![alt text](C:\Users\lawre\OneDrive\Documents\GitHub\Pewlett-Hackard-Analysis\unique_titles.png)
+![unique_titles](https://github.com/ljohnson1212/Pewlett-Hackard-Analysis/blob/main/unique_titles.png)
 
 	The final part of our project shows mentorship eligibility, if you look at the head of the new csv - you can see that most of these employees have senior titles.
 
-![alt text](C:\Users\lawre\OneDrive\Documents\GitHub\Pewlett-Hackard-Analysis\mentorship_eligibility.png)
+![mentorship_eligibility](https://github.com/ljohnson1212/Pewlett-Hackard-Analysis/blob/main/mentorship_eligibility.png)
 
 #CONCLUSION
 
